@@ -1,4 +1,4 @@
-# pytorch-multigpu
+# pytorch-multigpu f
 Multi GPU Training Code for Deep Learning with PyTorch. Train PyramidNet for CIFAR10 classification task. This code is for comparing several ways of multi-GPU training.
 
 # Requirement
