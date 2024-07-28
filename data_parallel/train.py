@@ -21,7 +21,7 @@ from tensorboardX import SummaryWriter
 parser = argparse.ArgumentParser(description='cifar10 classification models')
 parser.add_argument('--lr', default=0.1, help='')
 parser.add_argument('--resume', default=None, help='')
-parser.add_argument('--batch_size', type=int, default=768, help='')
+parser.add_argument('--batch_size', type=int, default=256, help='')
 parser.add_argument('--num_worker', type=int, default=4, help='')
 parser.add_argument("--gpu_devices", type=int, nargs='+', default=None, help="")
 args = parser.parse_args()
